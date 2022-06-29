@@ -2,7 +2,7 @@
   "name": "projeto-pagina-dentista",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://feliped4ntas.github.io/projeto-pagina-dentista/",
+  "homepage": "https://feliped4ntas.github.io/projeto-pagina-dentista/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy":"npm run build && cd node_modules && cd .bin && gh-pages -d ../../build"
   },
   "eslintConfig": {
     "extends": [
