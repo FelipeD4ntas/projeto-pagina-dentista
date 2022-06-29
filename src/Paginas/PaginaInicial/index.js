@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import EstruturaPagina from '../../componentes/EstruturaPagina';
+import EstruturaPagina from '../../Componentes/EstruturaPagina';
 import './estilo.css';
 
 const Home = (  ) => {

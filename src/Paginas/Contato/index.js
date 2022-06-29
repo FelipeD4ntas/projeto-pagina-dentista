@@ -1,6 +1,6 @@
 import React from 'react';
-import EstruturaPagina from '../../componentes/EstruturaPagina';
-import Mapa from '../../componentes/Mapa';
+import EstruturaPagina from '../../Componentes/EstruturaPagina';
+import Mapa from '../../Componentes/Mapa';
 import './estilo.css';
 
 const Contato = () => {

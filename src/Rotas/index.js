@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import PaginaInicial from '../paginas/PaginaInicial';
-import Contato from '../paginas/Contato';
+import PaginaInicial from '../Paginas/PaginaInicial';
+import Contato from '../Paginas/Contato';
 
 const Rotas = () => (
   <BrowserRouter basename={process.env.PUBLIC_URL}>
