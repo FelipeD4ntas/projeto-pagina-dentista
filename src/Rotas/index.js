@@ -4,7 +4,7 @@ import PaginaInicial from '../paginas/PaginaInicial';
 import Contato from '../paginas/Contato';
 
 const Rotas = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>    
       <Route exact path='/' element={ <PaginaInicial /> }/>
       <Route exact path='/contato' element={ <Contato /> } />
