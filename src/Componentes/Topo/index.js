@@ -7,7 +7,7 @@ const Topo = () => {
     <nav>
       <div className='box-logo'>
         <Link to='/' className='link-home'>
-          <img src='../assets/dente.png' alt='Dente Logo'/>
+          <img src='assets/dente.png' alt='Dente Logo'/>
           <p className='item-link texto-logo'>Dentes Saudáveis</p>
         </Link>
       </div>
