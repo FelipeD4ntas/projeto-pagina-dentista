@@ -1,11 +1,11 @@
 import logo from './logo.svg';
-import EstruturaPagina from './Componentes/EstruturaPagina';
+import Rotas from './Rotas';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <EstruturaPagina />
+      <Rotas />
     </div>
   );
 }

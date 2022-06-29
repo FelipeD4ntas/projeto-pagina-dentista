@@ -1,0 +1,30 @@
+nav {
+    padding: 20px calc((100% - 1024px) / 2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1D3371;
+    border-bottom: 2px solid white;
+}
+
+.item-link {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.8rem;
+  
+}
+
+.item-link:hover {
+    text-decoration: underline;
+}
+
+.link-home {
+    display: flex;
+    align-items: center;
+}
+
+.texto-logo {
+    font-size: 2.2rem;
+}

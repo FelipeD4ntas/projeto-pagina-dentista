@@ -1,0 +1,44 @@
+.contato-container {
+    padding-top: 90px;
+}
+
+.lista-medicos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.lista-medicos li {
+    list-style: none;
+    max-width: 300px;
+    padding: 10px 20px;
+}
+
+.lista-medicos li img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.agendar {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.doutores {
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.endereco {
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lista-medicos li p {
+    text-align: center;
+}
+
