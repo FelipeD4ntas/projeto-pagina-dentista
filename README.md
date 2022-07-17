@@ -1,2 +1,1 @@
-# projeto-pagina-dentista
- página com navegação interna usando React.js
+página com navegação interna usando React.js
